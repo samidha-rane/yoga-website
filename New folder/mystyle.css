@@ -1,0 +1,258 @@
+
+.formlogin{
+      text-align: center;
+      background:url(./images/yoga\ \(1\).PNG);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      font-size: xx-large ;
+}
+
+
+.header{
+    height: 100vh;
+    background: url(./images/yoga\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: #185077;
+   
+}
+
+.container{
+    max-width: 1200;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lg-heading{
+    font-size: 2.2rem;
+    font-weight: 600;
+
+}
+
+.text-white{
+    color: white;
+}
+.text-black{
+    color: black;
+}
+
+.text-grey{
+ color: rgb(82, 75, 75);
+}
+
+/* Body Styling */
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    font-size: 1.6rem;
+}
+p, li{
+    font-size: 1.6rem;
+    letter-spacing: 0.10em;
+    text-align: center;
+}
+h1, h2, h3{
+   letter-spacing: 0.15rem;
+   text-align: center;
+   font-size: 45px;
+}
+
+
+/* Header styling */
+.header h1{
+
+    color: black;
+    text-align: center;
+}
+
+
+.navbar .nav-item{
+    float: right;
+    list-style-type: none;
+    padding: 1.6rem;
+    text-transform: uppercase;
+    font-size: x-large;
+ }
+
+.header .navbar{
+    word-spacing: 10px;
+}
+
+/* Header Content Styling */
+.header-content{
+    
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 3rem;
+}
+
+ 
+ .nav-item:hover{
+         border-bottom: 2px black;
+ }
+
+ /* ##### Showcase section styling ###### */
+.Daliy{
+    padding: 10rem 0;
+    background-color:#ddd;
+}
+
+ .row{
+   height: 350px;
+  }
+
+ .row1{
+    margin-bottom: 10rem;
+ }
+
+ 
+ .row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 43%;
+
+ }
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 43%;
+ } 
+
+ .row .img-box{
+    height: 100%;
+ }
+
+ .row .text-box{
+    padding: 3rem;
+ }
+
+ .row .img-box img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ .row{
+    height: 350px;
+   }
+ 
+  .row3{
+     margin-bottom: 10rem;
+     margin-top: 10rem;
+  }
+ 
+    .row3 .img-box, .row4 .text-box{
+     float: left;
+     width: 43%;
+ 
+  }
+ .row4 .img-box, .row3 .text-box{
+     float: right;
+     width: 43%;
+  } 
+ 
+  .row .img-box{
+     height: 100%;
+  }
+ 
+  .row .text-box{
+     padding: 3rem;
+  }
+ 
+  .row .img-box img{
+     display: inline-block;
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+  }
+
+
+/* # Contact page Styling # */
+.contactform{
+    padding: 5rem 0;
+}
+.form-wrapper{
+    border: #185077 2px solid;
+    border-style: double;
+}
+.company-address{
+    width: 100%;
+    float: left;
+}
+
+.cform{
+    float: left;
+   
+}
+.form-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.form-wrapper img{
+max-width: 90%;
+min-height: 100%;
+object-fit: cover;
+float:right;
+} 
+
+.form-wrapper .company-address i{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.form-wrapper .company-address h2{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.cform{
+    padding: 1rem;
+}
+
+.banner-img{
+    height: 400px;
+    width: 50%;
+}
+
+.address-group{
+    float: left;
+    padding: 20px;
+}
+
+.cform input{
+    width: 100%;
+}
+
+.carousel-item{
+    object-fit: cover;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.para{
+    font-size: 15pt;
+    color: black; 
+    text-align: justify;
+}
+
+#intro::first-letter{
+    color: rgb(68, 54, 54);
+    font-size: 45pt;
+}
+
